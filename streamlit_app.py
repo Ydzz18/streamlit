@@ -8,7 +8,7 @@ st.write("Enter daw kanta tapos pindutin search button para lumabas lyrics sabi 
 if "search_results" not in st.session_state:
     st.session_state.search_results = None
 
-query = st.text_input("Search your song", placeholder="e.g., Dubidubidapdap Kuya Will")
+query = st.text_input("Search your song", placeholder="e.g., Bading ako by Andre Pagliawan")
 
 if st.button("Search"):
     if not query.strip():
