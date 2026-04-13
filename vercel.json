@@ -1,5 +1,4 @@
 {
-  "framework": "python",
   "buildCommand": "pip install -r requirements.txt",
   "env": {
     "STREAMLIT_SERVER_HEADLESS": "true",
