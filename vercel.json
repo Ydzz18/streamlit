@@ -16,7 +16,6 @@
     }
   ],
   "env": {
-    "STREAMLIT_SERVER_PORT": "@streamlit_port",
     "STREAMLIT_SERVER_HEADLESS": "true",
     "STREAMLIT_SERVER_ENABLEXSRFPROTECTION": "false",
     "STREAMLIT_CLIENT_TOOLBARPOSITION": "bottom"
