@@ -1,8 +1,18 @@
 {
-  "buildCommand": "pip install -r requirements.txt",
+  "buildCommand": "pip install --upgrade pip setuptools wheel && pip install -r requirements.txt",
   "env": {
     "STREAMLIT_SERVER_HEADLESS": "true",
     "STREAMLIT_SERVER_ENABLEXSRFPROTECTION": "false",
     "STREAMLIT_SERVER_PORT": "8501"
-  }
+  },
+  "routes": [
+    {
+      "src": "/api(.*)",
+      "dest": "/api"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/app.py"
+    }
+  ]
 }
