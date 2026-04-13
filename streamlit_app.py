@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("Song Search")
+st.title("Song Search App na pinapagwa ni Sir")
 st.write("Enter daw kanta tapos pindutin search button para lumabas lyrics sabi ni sir")
 
 # Initialize session state for results
