@@ -1,0 +1,18 @@
+[client]
+showErrorDetails = true
+toolbarMode = "minimal"
+
+[logger]
+level = "info"
+
+[server]
+port = 8501
+headless = true
+enableXsrfProtection = false
+
+[theme]
+primaryColor = "#FF6B6B"
+backgroundColor = "#1E1E2E"
+secondaryBackgroundColor = "#2D2D44"
+textColor = "#FFFFFF"
+font = "sans serif"
